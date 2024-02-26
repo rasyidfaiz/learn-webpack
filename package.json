@@ -1,17 +1,29 @@
 {
   "name": "learn-webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "project for learning webpack",
   "main": "index.js",
   "private": true,
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack --config webpack.dev.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "webpack",
+    "learn",
+    "wpu"
+  ],
+  "author": "WPU || Faiz",
   "license": "ISC",
   "devDependencies": {
+    "bootstrap": "^5.3.3",
+    "css-loader": "^6.10.0",
+    "html-webpack-plugin": "^5.6.0",
+    "sass": "^1.71.1",
+    "sass-loader": "^14.1.1",
+    "style-loader": "^3.3.4",
     "webpack": "^5.90.3",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-merge": "^5.10.0"
   }
 }
